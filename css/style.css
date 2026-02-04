@@ -15,6 +15,7 @@
 /*cssファイルの読み込み
 ---------------------------------------------------------------------------*/
 @import url("slide.css");
+@import url("slideshow.css");
 @import url("inview.css");
 
 
