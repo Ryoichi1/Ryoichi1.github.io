@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+/* カテゴリー */
+.category {
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.category th {
+  padding: 12px;
+  text-align: left;
+}
+
+
+
+.menu-body td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.menu-body {
+  display: none;
+  opacity: 0;
+}
+
+.menu-body.open {
+  display: block;
+  animation: fadeOpen 0.3s ease forwards;
+}
+
+@keyframes fadeOpen {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
