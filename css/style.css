@@ -632,12 +632,12 @@ footer small {
 th {
   text-align: left;
   font-size: 18px;
-  background-color: #555555;
+  background-color: #111111;
   padding-left: 6px;
 }
 
 tbody {
-	font-size: 10px;
+	font-size: 14px;
 }
 
 /*その他
