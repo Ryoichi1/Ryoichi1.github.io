@@ -636,6 +636,10 @@ th {
   padding-left: 6px;
 }
 
+td {
+	font-size: 10px;
+}
+
 /*その他
 ---------------------------------------------------------------------------*/
 .clearfix::after {content: "";display: block;clear: both;}
